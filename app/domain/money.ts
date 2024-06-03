@@ -1,6 +1,7 @@
 export class Money {
     private static readonly MINIMUM_MONEY = 0;
     private static readonly _UNIT = 100;
+    public static readonly ZERO = Money.from(0);
 
     private readonly _value: number;
 
